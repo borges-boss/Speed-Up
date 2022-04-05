@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include
+        layout="@layout/app_bar_select_games"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="200dip"
+        android:layout_height="30dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search_box_background"
+        android:ems="10"
+        android:fontFamily="@font/bahnschrift"
+        android:gravity="center"
+        android:hint="  Search for your game..."
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textColor="#929292"
+        android:textColorHighlight="#929292"
+        android:textColorHint="#929292"
+        android:textSize="14sp"
+        android:autofillHints="" />
+</LinearLayout>

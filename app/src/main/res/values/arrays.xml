@@ -1,0 +1,26 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="auto_task_spinner_items">
+        <item>No action</item>
+        <item>Turn on</item>
+        <item>Turn off</item>
+
+    </string-array>
+
+    <string-array name="tick_texts">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>Ultra Boost</item>
+
+    </string-array>
+</resources>

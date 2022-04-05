@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--Alpha do icone feedback definido no arquivo ic_feedback -->
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_feed_back"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/nav_feed_back"
+
+
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share"
+            />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_star"
+            android:title="@string/nav_rate"
+
+            />
+
+
+    </group>
+
+
+
+
+
+</menu>

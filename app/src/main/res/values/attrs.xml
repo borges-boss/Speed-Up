@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="NetworkStatusBar">
+        <attr name="progress" format="integer"/>
+        <attr name="progressColor" format="color"/>
+
+
+
+
+
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="arcProgressStyle" format="reference"/>
+        <attr name="networkStatusBarStyle" format="reference"/>
+
+
+
+    </declare-styleable>
+
+
+
+
+
+</resources>

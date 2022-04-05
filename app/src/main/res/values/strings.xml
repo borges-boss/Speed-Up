@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Speed Up</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="core_temperature">CPU</string>
+    <string name="network">Network</string>
+    <string name="button_optimize">Boost</string>
+    <string name="nav_feed_back">Feedback</string>
+    <string name="nav_rate">Rate Us</string>
+    <string name="nav_premium">Become Premium</string>
+    <string name="title_activity_select_games">Settings</string>
+    <string name="notification_channel">Notification Blocker</string>
+
+    <!--Page Slider texts -->
+
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="notification_permission_explain">Allow <b>Speed Up</b> to manage and see your notifications ?</string>
+
+    <string name="notification_permission_title">Notification Access Permission</string>
+
+    <string name="modify_system_settings_explain">Allow <b>Speed Up</b> to modify system settings ?</string>
+    <string name="modify_system_settings_title">Modify System Settings Permission</string>
+    <string name="optimize_title">Optimizing</string>
+    <string name="close">Close</string>
+    <string name="purchase_advantage">By becoming premium you will get:</string>
+    <string name="reward_success_dialog_sub_message">Click the button bellow to create it</string>
+    <string name="title_tutorial8">For Android 8.0 and higher</string>
+    <string name="title_tutorial7_1">For Android 7.1</string>
+    <string name="text_page8">For android 8.0 and above just click in add shortcut and it will be added automatically.</string>
+    <string name="text_page7_1">For android 7.1 and below, long-press the Speed Up icon and drag and drop your shortcut to home screen!</string>
+    <string name="title_main_tutorial">About the shortcuts</string>
+    <string name="text_main_tutorial">Here you can add a shortcut of the selected app to your home screen. Through this shortcut, you can launch the app applying all the settings you defined!</string>
+
+</resources>

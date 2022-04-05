@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/autoTaskHeaderBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/auto_task_header_background_purple"
+    android:elevation="2dp"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/autoTaskIconHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@drawable/wifi_icon"
+        />
+
+
+    <TextView
+        android:id="@+id/autoTaskTitleHeader"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/bahnschrift"
+        android:gravity="center_vertical"
+        android:text="Title"
+
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dropDownArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="20dp"
+        android:drawingCacheQuality="high"
+        app:srcCompat="@drawable/arrow_drop"
+
+        />
+
+</LinearLayout>

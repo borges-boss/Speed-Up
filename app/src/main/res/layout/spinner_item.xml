@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/spinnerDropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/dropdownListPreferredItemHeight"
+    android:gravity="center_vertical|end"
+    android:singleLine="true"
+    android:paddingEnd="34dp"
+
+    tools:ignore="RtlSymmetry">
+
+</TextView>

@@ -1,0 +1,190 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <attr name="settings_icon" format="reference"/>
+    <attr name="theme_text_color"/>
+    <attr name="background_text_color"/>
+    <attr name="application_background"/>
+    <attr name="card_background"/>
+    <attr name="bottomSheetTitle"/>
+
+
+
+    <attr name="app_backgorund"/>
+    <attr name="swtToolBarTrackColor" format="reference"/>
+    <attr name="swtToolBarThumbColor" format="reference"/>
+    <attr name="spinner_color_indicator" format="reference" />
+    <attr name="premium_dialog_text_color"/>
+    <attr name="searchbox_txt_color"/>
+    <attr name="recycler_background"/>
+    <attr name="nav_item_color"/>
+    <attr name="dialog_text"/>
+
+
+    <attr name="shortcut_menu" format="reference"/>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="DarkAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="background_text_color">#FFFFFF</item>
+        <item name="application_background">#2D2C2C</item>
+        <item name="card_background">#3B3B3B</item>
+        <item name="colorPrimary">#3B3B3B</item>
+        <item name="colorPrimaryDark">#404040</item>
+
+        <item name="colorAccent">@color/darkActionBarColor</item>
+        <item name="android:itemTextAppearance">@color/colorPrimaryDark</item>
+        <item name="title">Games</item>
+        <item name="titleTextColor">@color/darkThemeTitleTextColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:shadowColor">@color/backgroundDarkTheme</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:windowActivityTransitions">true</item>
+
+        <item name="app_backgorund">@color/backgroundDarkTheme</item>
+        <item name="premium_dialog_text_color">@color/backgroundLightTheme</item>
+
+        <item name="settings_icon">@drawable/settings_individual</item>
+        <item name="theme_text_color">#FFFFFF</item>
+        <item name="spinner_color_indicator">@color/darkActionBarColor</item>
+        <item name="searchbox_txt_color">#6B6B6B</item>
+        <item name="recycler_background">#343434</item>
+        <item name="nav_item_color">@color/backgroundLightTheme</item>
+        <item name="shortcut_menu">@color/backgroundLightTheme</item>
+        <item name="swtToolBarTrackColor">@color/darkActionBarColor</item>
+        <item name="swtToolBarThumbColor">@color/backgroundLightTheme</item>
+        <item name="dialog_text">@color/backgroundLightTheme</item>
+        <item name="android:textColor">@color/darkActionBarColor</item>
+    </style>
+
+
+    <style name="LightAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="background_text_color">#515151</item>
+        <item name="application_background">#F8F8F8</item>
+        <item name="card_background">#FFFFFF</item>
+
+
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/darkActionBarColor</item>
+        <item name="title">Games</item>
+        <item name="titleTextColor">@color/lightThemeTitleTextColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:actionMenuTextColor">@color/darkActionBarColor</item>
+        <item name="settings_icon">@drawable/settings_individual_black</item>
+        <item name="theme_text_color">#2D2C2C</item>
+        <item name="searchbox_txt_color">#929292</item>
+        <item name="shortcut_menu">@color/darkActionBarColor</item>
+        <item name="premium_dialog_text_color">#575252</item>
+        <item name="app_backgorund">@android:color/white</item>
+        <item name="spinner_color_indicator">@color/lightThemeTitleTextColor</item>
+        <item name="recycler_background">#ECECEC</item>
+        <item name="nav_item_color">#6A6767</item>
+        <item name="swtToolBarThumbColor">@color/darkActionBarColor</item>
+        <item name="dialog_text">#9717F8</item>
+
+
+
+
+
+    </style>
+
+
+    <style name="CustomFragmentDialogStyle" parent="Theme.AppCompat.Dialog">
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+
+    <style name="BottomSheetBuyPremium" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/premium_dialog_background</item>
+
+    </style>
+
+    <style name="BottomSheetBuyPremiumTheme" parent="@style/Theme.Design.Light.BottomSheetDialog">
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheetBuyPremium</item>
+        <item name="android:textColor">#575252</item>
+    </style>
+
+
+
+    <style name="BottomSheetBuyPremiumThemeDark" parent="@style/Theme.Design.Light.BottomSheetDialog">
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheetBuyPremiumDark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BottomSheetBuyPremiumTheme" />
+
+    <style name="BottomSheetDialogThemeDark" parent="BottomSheetBuyPremiumThemeDark" />
+
+
+    <style name="BottomSheetBuyPremiumDark" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/premium_dialog_back_dark</item>
+    </style>
+
+
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- Additionally if you want animations when dialog opening -->
+
+    </style>
+
+    <style name="TabStyle" parent="Widget.MaterialComponents.TabLayout">
+
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+
+    </style>
+
+
+
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="myActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+    </style>
+
+</resources>
